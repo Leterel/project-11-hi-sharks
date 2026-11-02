@@ -1,6 +1,6 @@
 # PROJECT #13: HI SHARKS
 
-Status: Concept / planning
+Status: Local private-draft preview, 0.1.0; real funding objective still open
 Owner: Leterel
 Created: 2026-10-28
 
@@ -152,3 +152,16 @@ This repository is the persistent project notebook.
 Future sessions should read this README before proceeding.
 Distinguish established facts from proposals.
 Do not claim an MVP exists until it has actually been built.
+
+## Local draft prototype — 2026-11-02
+
+Run `npm start`, open http://127.0.0.1:8863. Node 22+, no packages required.
+The synthetic example can be replaced with a title, story and whole-euro goal.
+Preview uses plain text, and JSON export includes only those approved fields
+plus an explicit `private-draft` status. No personal story is invented for the
+owner. Refreshing discards unsaved edits. `npm test` checks export boundaries.
+
+No payments, documents, outreach, accounts or live campaign. Exported drafts
+may contain whatever the author types and must be checked before sharing.
+Next: choose the real funding purpose and approved public story; then evaluate
+the transparent landing page with people before selecting payment services.
