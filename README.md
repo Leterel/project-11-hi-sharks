@@ -195,3 +195,7 @@ asset URLs support hosting at a domain root or project subdirectory. The private
 draft editor is deliberately excluded from this bundle. HTTPS hosting is required
 for service workers outside localhost. No hosting, payment provider, contacts or
 fees have been configured during this implementation.
+
+## Entwicklung und Übergabe
+
+[AGENTS.md](AGENTS.md) bündelt den Einstieg für Entwickler und KI-Agenten; [TESTING.md](TESTING.md) nennt reproduzierbare Prüfungen und deren Grenzen. Der aktuelle Übergabestand steht in [HANDOFF.md](HANDOFF.md).
