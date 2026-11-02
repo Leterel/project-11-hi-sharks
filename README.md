@@ -1,6 +1,6 @@
-# PROJECT #13: HI SHARKS
+# PROJECT #12: HI SHARKS
 
-Status: Local private-draft preview, 0.1.0; real funding objective still open
+Status: Personal responsive campaign web app, 0.2.0; payment link not configured
 Owner: Leterel
 Created: 2026-10-28
 
@@ -140,8 +140,8 @@ Primary environment: Windows / PowerShell 7
 Version control: GitHub
 Prefer local development and free tools where practical.
 
-Keep Project #13 separate from all other projects.
-Do not modify Project #14 or Project #15.
+Keep Project #12 separate from all other projects.
+Do not modify unrelated projects from within this project’s tools.
 Do not assume software is already installed.
 Do not incur costs without approval.
 
@@ -163,5 +163,35 @@ owner. Refreshing discards unsaved edits. `npm test` checks export boundaries.
 
 No payments, documents, outreach, accounts or live campaign. Exported drafts
 may contain whatever the author types and must be checked before sharing.
-Next: choose the real funding purpose and approved public story; then evaluate
-the transparent landing page with people before selecting payment services.
+The old draft editor remains at `/draft.html`.
+
+## Confirmed personal direction — 2026-11-02
+
+The user explicitly chose a humorous personal appeal to wealthy people:
+**“Haste mal ’ne Mark?”** Hi Sharks asks for voluntary personal support for the
+owner. A public bill-sharing platform is only an older future idea, not the
+current scope. No invented hardship, target sum, supporters or receipts.
+
+`npm start` opens the new responsive campaign at http://127.0.0.1:8863.
+One web interface covers desktop, phone and tablet layouts. A web-app manifest
+and service worker prepare browser installation/offline use on supported browsers;
+this is not an App Store or Play Store release. Actual iPhone/Safari and physical
+Android tests have not been performed. Android testing remains emulator-only.
+
+The page includes a personal request, a manually prepared pitch, copy/share
+controls, honest funding status and optional browser installation. It does not
+scrape rich people's details or send anyone a message automatically.
+
+`campaign-config.json` contains public settings. `supportUrl` and `publicUrl`
+stay empty until real approved HTTPS destinations exist. The support action is
+disabled meanwhile; no fake payment, fake campaign URL or fake donation counter.
+Only the public campaign shell is cached; private draft exports are not cached.
+
+For a public static deployment, run
+`node tools/package-web.mjs PATH-TO-A-NEW-DIRECTORY`. The parent directory must
+exist; an existing target is rejected. This packages only the public campaign,
+its web manifest, 192/512-pixel icons, Apple touch icon and MIT license. Relative
+asset URLs support hosting at a domain root or project subdirectory. The private
+draft editor is deliberately excluded from this bundle. HTTPS hosting is required
+for service workers outside localhost. No hosting, payment provider, contacts or
+fees have been configured during this implementation.
