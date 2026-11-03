@@ -1,4 +1,4 @@
-# PROJECT #12: HI SHARKS
+# PROJECT #11: HI SHARKS
 
 Status: Personal responsive campaign web app, 0.2.0; payment link not configured
 Owner: Leterel
@@ -140,7 +140,7 @@ Primary environment: Windows / PowerShell 7
 Version control: GitHub
 Prefer local development and free tools where practical.
 
-Keep Project #12 separate from all other projects.
+Keep Project #11 separate from all other projects.
 Do not modify unrelated projects from within this project’s tools.
 Do not assume software is already installed.
 Do not incur costs without approval.
